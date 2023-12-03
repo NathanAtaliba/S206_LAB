@@ -33,3 +33,18 @@ Scenario: Testando retorno de um tipo selvagem de um pokemon
         When method get
         Then status 200
         And match response.name == "grass"
+
+        Scenario: Testando retorno se um pokemon se encontra presente na versão "pokemon blue"
+        Given url url_base
+        And path '/version/2/'
+        When method get
+        Then status 200
+        And match response.name == "blue"
+
+
+    Scenario: Testando retorno de uma habilidade de um pokemon
+        Given url url_base
+        And path 'move/55/'
+        When method get
+        Then status 200
+        And match response.name == "water-gun"
