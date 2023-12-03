@@ -17,3 +17,19 @@ Scenario: Testando retorno com informações inválidas.
         And path 'pokemon/ronaldo'
         When method get
         Then status 404
+
+
+Scenario: Testando retorno de uma habilidade de um pokemon
+        Given url url_base
+        And path '/ability/65/'
+        When method get
+        Then status 200
+        And match response.name == "overgrow"
+
+
+Scenario: Testando retorno de um tipo selvagem de um pokemon
+        Given url url_base
+        And path '/type/12/'
+        When method get
+        Then status 200
+        And match response.name == "grass"
