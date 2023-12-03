@@ -1,6 +1,6 @@
  ## Informações Solicitadas:
     Nosso projeto consiste na realização de vários testes utilizando
-     a ferramenta KARATE DSL de uma API do desenho South Park!
+     a ferramenta KARATE DSL de uma API de pokemons!
     
     Para realizar os testes, você tem que digitar o seguinte comando no terminal:
 
