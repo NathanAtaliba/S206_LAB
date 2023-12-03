@@ -10,7 +10,7 @@
 
     Para obter o relatório de testes, você tem que seguir o seguinte diretório:
 
-        target/karate-reports/aula_inatel.south_park.south_park.html
+        S206_LAB\aula_karate\target\karate-reports\aula_inatel.API_trabalho.API_trabalho.html
 
     O arquivo de relatório é gerado automaticamente após a realização dos testes!
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="aula_inatel.API_trabalho.APIRunner" time="1.195" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="aula_inatel.API_trabalho.APIRunner" time="13.341" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\natha\AppData\Local\Temp\surefire3107663679489638006\surefirebooter8373531013890075584.jar C:\Users\natha\AppData\Local\Temp\surefire3107663679489638006 2023-12-02T20-26-11_010-jvmRun1 surefire17593559977910965802tmp surefire_015727674268692663835tmp"/>
+    <property name="sun.java.command" value="C:\Users\natha\AppData\Local\Temp\surefire497988817865994184\surefirebooter12639842522587698254.jar C:\Users\natha\AppData\Local\Temp\surefire497988817865994184 2023-12-03T13-50-52_472-jvmRun1 surefire889566742301700156tmp surefire_03908139268884587568tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="APIRunner"/>
     <property name="surefire.test.class.path" value="C:\Users\natha\Documents\S206_LAB\aula_karate\target\test-classes;C:\Users\natha\Documents\S206_LAB\aula_karate\target\classes;C:\Users\natha\.m2\repository\com\intuit\karate\karate-junit5\1.1.0\karate-junit5-1.1.0.jar;C:\Users\natha\.m2\repository\com\intuit\karate\karate-core\1.1.0\karate-core-1.1.0.jar;C:\Users\natha\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\natha\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\natha\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\natha\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\natha\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\natha\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\natha\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\natha\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\natha\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\natha\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\natha\.m2\repository\com\jayway\jsonpath\json-path\2.6.0\json-path-2.6.0.jar;C:\Users\natha\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\natha\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\natha\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\natha\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\natha\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\natha\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\natha\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\natha\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\natha\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\natha\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\natha\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\natha\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\natha\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\natha\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\natha\AppData\Local\Temp\surefire3107663679489638006\surefirebooter8373531013890075584.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\natha\AppData\Local\Temp\surefire497988817865994184\surefirebooter12639842522587698254.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
@@ -59,8 +59,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testSouthPark" classname="aula_inatel.API_trabalho.APIRunner" time="1.193">
-    <error message="not found: aula_inatel/API_trabalho/API_trabalho.feature" type="java.lang.RuntimeException">java.lang.RuntimeException: not found: aula_inatel/API_trabalho/API_trabalho.feature
-</error>
-  </testcase>
+  <testcase name="testSouthPark[1][1]" classname="aula_inatel.API_trabalho.APIRunner" time="6.124"/>
+  <testcase name="testSouthPark[1][2]" classname="aula_inatel.API_trabalho.APIRunner" time="0.718"/>
+  <testcase name="testSouthPark[1][3]" classname="aula_inatel.API_trabalho.APIRunner" time="0.844"/>
+  <testcase name="testSouthPark[1][4]" classname="aula_inatel.API_trabalho.APIRunner" time="0.686"/>
+  <testcase name="testSouthPark[1][5]" classname="aula_inatel.API_trabalho.APIRunner" time="0.708"/>
+  <testcase name="testSouthPark[1][6]" classname="aula_inatel.API_trabalho.APIRunner" time="2.615"/>
 </testsuite>
