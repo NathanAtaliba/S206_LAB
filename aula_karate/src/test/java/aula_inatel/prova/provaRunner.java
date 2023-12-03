@@ -1,12 +1,11 @@
-package aula_inatel.poke_prova;
+package aula_inatel.prova;
 
 import com.intuit.karate.junit5.Karate;
 
-public class poke_provaRunner {
+public class provaRunner {
     
     @Karate.Test
-    Karate testpoke_prova() {
+    Karate testprova() {
         return Karate.run("prova").relativeTo(getClass());
-    }    
-    
+    }     
 }

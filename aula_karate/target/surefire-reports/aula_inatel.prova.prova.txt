@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: aula_inatel.prova.prova
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.387 s <<< FAILURE! - in aula_inatel.prova.prova
+testprova  Time elapsed: 1.384 s  <<< ERROR!
+java.lang.RuntimeException: not found: aula_inatel/prova/prova.feature
+
