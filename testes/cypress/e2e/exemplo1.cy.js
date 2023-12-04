@@ -1,6 +1,6 @@
 /// <reference types="cypress"/>
 
-describe('Criando cenário de teste para o site computer-database.gatling', ()=> {
+describe('Criando cenário de teste para o site computer-database.gatling', () => {
 
   it('Caso de teste: Testando busca de computador Apple MacBook Pro', () => {
 
@@ -8,6 +8,15 @@ describe('Criando cenário de teste para o site computer-database.gatling', ()=>
     cy.get('#searchbox').type('Apple MacBook Pro')
     cy.get('#searchsubmit').click()
     cy.get('.well').should('contain.text', 'Nothing to display')
+
+  })
+
+  it('Caso de teste: Testando busca de computador ACER', () => {
+
+    cy.visit('https://computer-database.gatling.io/computers')
+    cy.get('#searchbox').type('ACER')
+    cy.get('#searchsubmit').click()
+    cy.get('tbody > :nth-child(1) > :nth-child(1)').should('contain.text', 'Acer Extensa')
 
   })
 
@@ -23,7 +32,7 @@ describe('Criando cenário de teste para o site computer-database.gatling', ()=>
 
   it('Caso de teste: Adicionando o Apple MacBook Pro 10', () => {
 
-    let computerInfo = adicionarComputador()
+    let computerInfo = AdicionarComputador()
     cy.get('.alert-message').should('contain.text', computerInfo[0])
 
   })
@@ -36,7 +45,7 @@ describe('Criando cenário de teste para o site computer-database.gatling', ()=>
     cy.get('#introduced').type("10-01-2009")
     cy.get('#discontinued').type("2010-01-10")
     cy.get('#company').select("Apple Inc.")
-    cy.get('.primary').click() 
+    cy.get('.primary').click()
     cy.get('.error > .input > .help-inline').should('contain.text', 'Failed')
   })
 
@@ -50,7 +59,7 @@ describe('Criando cenário de teste para o site computer-database.gatling', ()=>
 
 })
 
-function AdicionarComputador(){
+function AdicionarComputador() {
 
   let name = "Apple MacBook Pro 11"
   let introduced = "2009-01-10"
