@@ -23,5 +23,6 @@
  6 - Adicionando um computador sem informações (falha)
 
 # Testes:
+Instale as dependencias : ```npm install cypress --save-dev```
 
 Para rodar os testes utilize: ```./node_modules/.bin/cypress run --spec 'cypress/e2e/**/'```
