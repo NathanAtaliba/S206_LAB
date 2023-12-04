@@ -21,3 +21,7 @@
  5 - Adicionando um computador com a data de introdução errada (falha)
 
  6 - Adicionando um computador sem informações (falha)
+
+# Testes:
+
+Para rodar os testes utilize: ```./node_modules/.bin/cypress run --spec 'cypress/e2e/**/'```
